@@ -10,7 +10,7 @@ from vidgear.gears import CamGear
 url="https://www.youtube.com/watch?v=Ove87nZ_1D4"
 video =pafy.new(url)
 best = video.getbest(preftype="webm")
-stream = CamGear(source='https://www.youtube.com/watch?v=Ove87nZ_1D4', stream_mode = True, logging=False).start() # YouTube Video URL as input
+# stream = CamGear(source='https://www.youtube.com/watch?v=Ove87nZ_1D4', stream_mode = True, logging=False).start() # YouTube Video URL as input
 # No pude encontrar rtsp en vivo asi que lo hago con este y los demas videos
 # rtsp_url = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov"
 # video_stream = VideoStream(rtsp_url).start()
